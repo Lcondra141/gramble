@@ -25,6 +25,7 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  adapter: postgreseql
+  database: tdd_production
   # username: grammable
   # password: <%= ENV['GRAMMABLE_DATABASE_PASSWORD'] %>
