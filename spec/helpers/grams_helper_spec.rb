@@ -11,4 +11,7 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe GramsHelper, type: :helper do
+    config.include Devise::Test::ControllerHelpers, type: :controller
+    include ActionDispatch::TestProcess
+
 end
