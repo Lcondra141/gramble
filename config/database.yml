@@ -25,7 +25,11 @@ test:
 
 production:
   <<: *default
+  host: ec2-107-20-185-16.compute-1.amazonaws.com
+  database: d653v38v2q54nr
+  user: zkivtfictzdyuc
+  password: 99f96f83ee1ddfb2aedacf896147d90491f4785e694e11f34bf143b00fc19b0d
   adapter: postgreseql
-  database: tdd_production
+  database: db/production.sqlite3
   # username: grammable
   # password: <%= ENV['GRAMMABLE_DATABASE_PASSWORD'] %>
