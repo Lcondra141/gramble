@@ -30,6 +30,5 @@ production:
   user: zkivtfictzdyuc
   password: 99f96f83ee1ddfb2aedacf896147d90491f4785e694e11f34bf143b00fc19b0d
   adapter: postgreseql
-  database: db/production.sqlite3
   # username: grammable
   # password: <%= ENV['GRAMMABLE_DATABASE_PASSWORD'] %>
